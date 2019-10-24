@@ -1,0 +1,1 @@
+$("#momentDate").text(moment().format("LL"));
