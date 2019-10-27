@@ -20,24 +20,30 @@ body {
     border-radius: 0;
     border-bottom: 10px solid black;
   }
-  
+
   input {
-    border: none;
-    white-space: pre-wrap;
+      width: 100%;
+      height: 80px;
+      background: none;
   }
+  
+  /* input {
+    border: none;
+    /* white-space: pre-wrap; */
+  /* } */ 
   
   .time-block{
     margin: auto;
     text-align: center;
-    width: 85%;
+    width: 90%;
     border-radius: 15px;
   }
   
-  .hour {
+  /* input {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;;
-  }
+  } */
   
   .hour {
     background-color: #ffffff;
@@ -62,10 +68,13 @@ body {
   
   .saveBtn {
     border-left: 1px solid black;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
     background-color: #06AED5;
     color: white;
+    width: 100px;
+    height: 80px;
+    float: left;
 
   }
   
